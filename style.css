@@ -93,10 +93,7 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
-
-main {
-    
-}
+/* css da pagina de contato */
 
 form {
     margin: 40px 0;
@@ -107,6 +104,11 @@ form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+}
+
+.formulario{
+    width: 50vw;
+    margin-left: 25vw;
 }
 
 .input-padrao {
@@ -140,6 +142,7 @@ form legend {
 
 table {
     margin: 20px 0 40px;
+    margin-left: 25vw;
 }
 
 thead {
@@ -255,6 +258,8 @@ th {
     margin: 2em auto;
 }
 
+/* mobile responsive */
+
 @media screen and (max-width: 480px) {
 
     .caixa,
@@ -275,7 +280,7 @@ th {
     .produtos{
         width: 100%;
     }
-    .produtos li{
+    .produtos li, .formulario, table {
         display: block;
         width: 80%;
         margin: 20px auto;
@@ -284,4 +289,5 @@ th {
     .lista-beneficios, .img-beneficios {
         width: 100%;
     }
+    
 }
